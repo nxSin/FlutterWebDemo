@@ -1,0 +1,20 @@
+[
+    {
+      "family": "TXKS",
+      "fonts": [
+        {
+          "asset": "fonts/txks.ttf",
+          "style": "italic"
+        }
+      ]
+    },
+    {
+      "family": "SWXS",
+      "fonts": [
+        {
+          "asset": "fonts/swxs.ttf",
+          "style": "italic"
+        }
+      ]
+    }
+  ]

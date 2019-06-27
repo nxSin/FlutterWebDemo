@@ -1,5 +1,8 @@
 import 'package:flutter_web/material.dart';
-import 'package:flutter_web_demo/practice/wiget_test_main.dart';
+import 'package:flutter_web_demo/practice/widget/widget_test_main.dart';
+import 'package:flutter_web_demo/practice/net/dio_test_main.dart' as net_test;/*网络*/
+import 'package:flutter_web_demo/dart_practice/test_dart.dart' as dart_test;/*Dart语法*/
+
 // import 'package:flutter_markdown/flutter_markdown.dart';
 
 // const String _markdownData = """# Markdown Example
@@ -45,7 +48,12 @@ import 'package:flutter_web_demo/practice/wiget_test_main.dart';
 // }
 
 //TextWiget测试
-void main() => runApp(MyTestApp());
+void main() => runApp(MyWidgetTestApp());
+/** 网络测试*/
+// void main() => runApp(net_test.DioTestMainApp());
+
+/**Dart语法*/
+// void main() => runApp(dart_test.HomePage());
 
 // void main() => runApp(MyApp());
 

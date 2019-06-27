@@ -1,31 +1,31 @@
 import 'package:flutter_web/cupertino.dart';
 import 'package:flutter_web/material.dart';
-import 'package:flutter_web_demo/practice/widget_text.dart' as widget_text_demo;
-import 'package:flutter_web_demo/practice/widget_container.dart'
+import 'package:flutter_web_demo/practice/widget/widget_text.dart' as widget_text_demo;
+import 'package:flutter_web_demo/practice/widget/widget_container.dart'
     as widget_container_demo;
-import 'package:flutter_web_demo/practice/widget_image.dart'
+import 'package:flutter_web_demo/practice/widget/widget_image.dart'
     as widget_image_demo;
-import 'package:flutter_web_demo/practice/widget_listview.dart'
+import 'package:flutter_web_demo/practice/widget/widget_listview.dart'
     as widget_list_demo;
-import 'package:flutter_web_demo/practice/widget_gridview.dart'
+import 'package:flutter_web_demo/practice/widget/widget_gridview.dart'
     as widget_gridview_demo;
-import 'package:flutter_web_demo/practice/widget_row.dart' as widget_row_demo;
-import 'package:flutter_web_demo/practice/widget_column.dart'
+import 'package:flutter_web_demo/practice/widget/widget_row.dart' as widget_row_demo;
+import 'package:flutter_web_demo/practice/widget/widget_column.dart'
     as widget_column_demo;
-import 'package:flutter_web_demo/practice/widget_stack.dart'
+import 'package:flutter_web_demo/practice/widget/widget_stack.dart'
     as widget_stack_demo;
-import 'package:flutter_web_demo/practice/widget_card.dart' as widget_card_demo;
-import 'package:flutter_web_demo/practice/widget_navigator.dart'
+import 'package:flutter_web_demo/practice/widget/widget_card.dart' as widget_card_demo;
+import 'package:flutter_web_demo/practice/widget/widget_navigator.dart'
     as widget_navigator_demo;
-import 'package:flutter_web_demo/practice/widget_navigator_parameter.dart'
+import 'package:flutter_web_demo/practice/widget/widget_navigator_parameter.dart'
     as widget_navigator_parameterdemo;
-import 'package:flutter_web_demo/practice/widget_navigator_parameter_back.dart'
+import 'package:flutter_web_demo/practice/widget/widget_navigator_parameter_back.dart'
     as widget_navigator_parameter_back_demo;
 
 /**
  * widget测试入口
  */
-class MyTestApp extends StatelessWidget {
+class MyWidgetTestApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {

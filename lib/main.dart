@@ -48,12 +48,12 @@ import 'package:flutter_web_demo/dart_practice/test_dart.dart' as dart_test;/*Da
 // }
 
 //TextWiget测试
-void main() => runApp(MyWidgetTestApp());
+// void main() => runApp(MyWidgetTestApp());
 /** 网络测试*/
 // void main() => runApp(net_test.DioTestMainApp());
 
 /**Dart语法*/
-// void main() => runApp(dart_test.HomePage());
+void main() => runApp(dart_test.HomePage());
 
 // void main() => runApp(MyApp());
 

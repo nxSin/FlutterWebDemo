@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'dart:io';
+// import 'dart:io';
 
 // import 'package:flutter/gestures.dart';
 // import 'package:flutter/widgets.dart';
 import 'package:markdown/markdown.dart' as md  ;
 import 'package:flutter_web/gestures.dart';
 import 'package:flutter_web/material.dart';
-import 'package:path/path.dart' as p;
+// import 'package:path/path.dart' as p;
 
 import 'style_sheet.dart';
 
@@ -86,7 +86,7 @@ abstract class MarkdownBuilderDelegate {
 ///  * [Markdown], which is a widget that parses and displays Markdown.
 class MarkdownBuilder implements md.NodeVisitor {
   /// Creates an object that builds a [Widget] tree from parsed Markdown.
-  MarkdownBuilder({ this.delegate, this.styleSheet, this.imageDirectory });
+  MarkdownBuilder({ this.delegate, this.styleSheet, /* this.imageDirectory */ });
 
   /// A delegate that controls how link and `pre` elements behave.
   final MarkdownBuilderDelegate delegate;
@@ -95,7 +95,7 @@ class MarkdownBuilder implements md.NodeVisitor {
   final MarkdownStyleSheet styleSheet;
 
   /// The base directory holding images referenced by Img tags with local file paths.
-  final Directory imageDirectory;
+  // final Directory imageDirectory;
 
   final List<String> _listIndents = <String>[];
   final List<_BlockElement> _blocks = <_BlockElement>[];

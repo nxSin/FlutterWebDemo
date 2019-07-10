@@ -21,6 +21,8 @@ import 'package:flutter_web_demo/practice/widget/widget_navigator_parameter.dart
     as widget_navigator_parameterdemo;
 import 'package:flutter_web_demo/practice/widget/widget_navigator_parameter_back.dart'
     as widget_navigator_parameter_back_demo;
+import 'package:flutter_web_demo/practice/widget/widget_markdown.dart'
+    as widget_markdown_demo;
 
 /**
  * widget测试入口
@@ -36,7 +38,7 @@ class MyWidgetTestApp extends StatelessWidget {
       ),
       // home: MyHomePage(title: 'Flutter Demo Home Page'),
       //Text
-      home: widget_text_demo.TextHomePage(title: 'Flutter Text Home Page'),
+      // home: widget_text_demo.TextHomePage(title: 'Flutter Text Home Page'),
       //容器container
       // home: widget_container_demo.TextHomePage(title: 'Flutter Demo Home Page'),
       //image
@@ -62,6 +64,10 @@ class MyWidgetTestApp extends StatelessWidget {
       //Navigator带参数返回
       // home: widget_navigator_parameter_back_demo.HomePage(
       //     title: 'Flutter Navigator Parameter Back Home Page'),
+
+      //markdown测试
+      home: widget_markdown_demo.MarkDownTestPage(
+          title: 'Flutter markdown Home Page'),
     );
   }
 }

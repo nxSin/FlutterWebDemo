@@ -19,6 +19,20 @@ class MyTextApp extends StatelessWidget {
   }
 }
 
+class Gester extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return new MaterialApp(
+      title: "鑫",
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: GestureDetector(
+        child: Text("flutter demo Home Page"),
+      ),
+    );
+  }
+}
+
 class TextHomePage extends StatelessWidget {
   TextHomePage({Key key, this.title}) : super(key: key);
   String title;

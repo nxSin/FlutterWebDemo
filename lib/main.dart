@@ -1,4 +1,5 @@
 import 'package:flutter_web/material.dart';
+import 'package:flutter_web_demo/demo_page/glogin_page.dart';
 import 'package:flutter_web_demo/practice/widget/widget_test_main.dart';
 import 'package:flutter_web_demo/practice/net/dio_test_main.dart' as net_test;/*网络*/
 import 'package:flutter_web_demo/dart_practice/test_dart.dart' as dart_test;/*Dart语法*/
@@ -48,7 +49,7 @@ import 'package:flutter_web_demo/dart_practice/test_dart.dart' as dart_test;/*Da
 // }
 
 //TextWiget测试
-void main() => runApp(MyWidgetTestApp());
+// void main() => runApp(MyWidgetTestApp());
 /** 网络测试*/
 // void main() => runApp(net_test.DioTestMainApp());
 
@@ -57,6 +58,8 @@ void main() => runApp(MyWidgetTestApp());
 
 // void main() => runApp(MyApp());
 
+//登陆应用
+void main() => runApp(GLoginPage());
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
